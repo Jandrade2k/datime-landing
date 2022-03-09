@@ -1,0 +1,15 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    border: 1px solid #c4c4c4;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    min-height: 250px;
+    max-width: 300px;
+    font-size: 36px;
+}
