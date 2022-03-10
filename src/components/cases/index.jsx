@@ -1,6 +1,7 @@
 import React from "react";
 import { Banner } from "../banner";
 import { MiniCard } from "../mini-card";
+import {Info} from '../info';
 import './style.css';
 
 export function Cases() {
@@ -15,6 +16,7 @@ export function Cases() {
                 <MiniCard />
                 <MiniCard />
             </div>
+            <Info />
         </div>
     )
 }
