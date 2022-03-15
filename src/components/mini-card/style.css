@@ -1,6 +1,7 @@
 .mini-card {
-    background-color: #c4c4c4;
+    background-color: #e6e6e6;
     border-radius:20px;
+    border: 1.5px solid #c4c4c4;
     /* max-width: 165px;
     max-height: 165px; */
     width: 160px;
@@ -8,6 +9,7 @@
     display: flex;
     justify-content:center;
     align-items:center;
+    filter: grayscale(100%);
 }
 
 .mini-card img {
