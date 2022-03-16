@@ -4,12 +4,13 @@
     border: 1.5px solid #c4c4c4;
     /* max-width: 165px;
     max-height: 165px; */
-    width: 160px;
-    height: 160px;
+    width: 130px;
+    height: 130px;
     display: flex;
     justify-content:center;
     align-items:center;
     filter: grayscale(100%);
+    z-index: 0;
 }
 
 .mini-card img {
